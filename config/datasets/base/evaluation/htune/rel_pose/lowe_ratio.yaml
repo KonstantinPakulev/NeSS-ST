@@ -1,0 +1,18 @@
+htune:
+  mode_epoch: 1
+
+  metric_log_iter: -1
+
+  metrics:
+    htune:
+      param: 'lowe_ratio'
+
+      num_processes: 21
+
+      r_err_thresh: 10
+      t_err_thresh: 10
+
+      reduce: True
+      output_keys:
+        - r_mAA
+        - t_mAA

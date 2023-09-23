@@ -1,0 +1,8 @@
+train:
+  batch_size: 7
+  num_samples: 23100
+
+  sampler: 'subset'
+  shuffle: True
+
+  num_workers: 8

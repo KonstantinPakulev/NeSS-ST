@@ -1,0 +1,57 @@
+eval_params:
+  estimator:
+    name: H_OPENCV
+    confidence: 0.9999
+    num_ransac_iter: 10000
+    min_num_inliers: 4
+  tuner:
+    matcher:
+      lowe_ratio:
+        start: 0.93
+        end: 1.0
+        step: 0.01
+    estimator:
+      inl_thresh:
+        start: 0.5
+        end: 6.0
+        step: 0.1
+  shi_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 5.9
+  sift_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 6.0
+  superpoint_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 5.4
+  r2d2_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 5.4
+  keynet_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 5.9
+  disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 5.4
+  rekd_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 5.2
+  shiness_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 5.4

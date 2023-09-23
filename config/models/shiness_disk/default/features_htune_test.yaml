@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - /models/shiness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shiness_disk'
+  log_dir: 'shiness_disk'
+
+  shiness:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+    checkpoint:
+      rel_path: "models/shiness"
+      name: "r_mAA=0.7706"
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

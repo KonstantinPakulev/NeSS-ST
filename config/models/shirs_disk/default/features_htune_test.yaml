@@ -1,0 +1,36 @@
+# @package _global_
+
+defaults:
+  - /models/shirs: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shirs_disk'
+  log_dir: 'shirs_disk'
+
+  shirs:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+    eval_params:
+      ablations:
+        filtering:
+          tag_pattern: 'flt@thr{:.3f}'
+          log_pattern: 'thr{:.3f}'
+          sweep_param: 'score_thresh'
+          sweep_values:
+            - 0.0
+            - 0.002
+            - 0.003
+            - 0.004
+            - 0.005
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

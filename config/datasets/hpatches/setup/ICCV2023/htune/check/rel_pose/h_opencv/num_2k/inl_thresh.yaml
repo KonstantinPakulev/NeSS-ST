@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/setup/ICCV2023/htune/rel_pose/h_opencv/num_2k/inl_thresh@_global_
+
+datasets:
+  dataset_name: 'hpatches'
+  evaluation_task: 'rel_pose'
+  backend: 'h_opencv/2k'
+
+  hpatches:
+    loader:
+      htune:
+        batch_size: 3
+        num_samples: 3
+        sampler: 'subset'

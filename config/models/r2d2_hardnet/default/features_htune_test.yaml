@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/r2d2: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'r2d2_hardnet'
+  log_dir: 'r2d2_hardnet'
+
+  r2d2:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

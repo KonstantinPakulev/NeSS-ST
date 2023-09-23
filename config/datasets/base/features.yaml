@@ -1,0 +1,13 @@
+features:
+  data_options:
+    - 'image'
+
+  transforms:
+    grayscale:
+
+    resize:
+      width: -1
+      height: -1
+
+    crop:
+      type: 'divisor_crop'

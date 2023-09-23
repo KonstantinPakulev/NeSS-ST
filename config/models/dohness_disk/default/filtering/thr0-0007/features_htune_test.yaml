@@ -1,0 +1,11 @@
+        # @package _global_
+defaults:
+- /models/dohness_disk/default: features_htune_test
+
+models:
+  model_name: dohness#flt@thr0-0007_disk
+  log_dir: dohness_disk/filtering/thr0-0007
+  dohness:
+    checkpoint:
+      rel_path: models/dohness/filtering/thr0-0007
+      name: r_mAA-t_mAA=0.6706

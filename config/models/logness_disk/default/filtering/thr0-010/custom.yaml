@@ -1,0 +1,10 @@
+        # @package _global_
+defaults:
+- /models/logness_disk/default: custom
+
+models:
+  model_name: logness#flt@thr0-010_disk
+  logness:
+    checkpoint:
+      rel_path: models/logness/filtering/thr0-010
+      name: r_mAA-t_mAA=0.6716

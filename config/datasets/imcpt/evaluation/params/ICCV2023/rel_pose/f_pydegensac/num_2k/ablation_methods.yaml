@@ -1,0 +1,197 @@
+eval_params:
+  estimator:
+    name: F_PYDEGENSAC
+    confidence: 0.9999
+    num_ransac_iter: 200000
+    min_num_inliers: 7
+  tuner:
+    matcher:
+      lowe_ratio:
+        start: 0.93
+        end: 1.0
+        step: 0.01
+    estimator:
+      inl_thresh:
+        start: 0.5
+        end: 1.7
+        step: 0.1
+  logness#flt@thr0-015_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.7
+  logness#flt@thr0-000_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.7
+  logness#flt@thr0-010_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  logness#flt@thr0-013_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  logness#flt@thr0-017_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  logness#flt@thr0-019_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  dohness#flt@thr0-0000_disk:
+    matcher:
+      lowe_ratio: 0.95
+    estimator:
+      inl_thresh: 0.6
+  dohness#flt@thr0-0003_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 1.0
+  dohness#flt@thr0-0004_disk:
+    matcher:
+      lowe_ratio: 0.96
+    estimator:
+      inl_thresh: 1.1
+  dohness#flt@thr0-0005_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 1.4
+  dohness#flt@thr0-0006_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 1.1
+  dohness#flt@thr0-0007_disk:
+    matcher:
+      lowe_ratio: 0.96
+    estimator:
+      inl_thresh: 0.8
+  dohness#flt@thr0-0008_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 1.0
+  shiness#flt@thr0-000_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.9
+  shiness#flt@thr0-003_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiness#flt@thr0-004_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.9
+  shiness#flt@thr0-005_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  shiness#flt@thr0-006_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.7
+  shiness#flt@thr0-007_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 0.7
+  shiness#h@scale1-681_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.7
+  shiness#h@scale2-378_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiness#h@scale2-828_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.7
+  shiness#h@scale1-414_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.9
+  shiness#h@scale2-000_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiss#flt@thr0-000_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 0.9
+  shiss#flt@thr0-003_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiss#flt@thr0-004_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  shiss#flt@thr0-005_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  shiss#flt@thr0-006_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiss#flt@thr0-007_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.9
+  shiss#flt@thr0-002_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  shirs#flt@thr0-000_disk:
+    matcher:
+      lowe_ratio: 0.95
+    estimator:
+      inl_thresh: 1.0
+  shirs#flt@thr0-002_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 1.0
+  shirs#flt@thr0-003_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 0.9
+  shirs#flt@thr0-004_disk:
+    matcher:
+      lowe_ratio: 0.97
+    estimator:
+      inl_thresh: 1.0
+  shirs#flt@thr0-005_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.9

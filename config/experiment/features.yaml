@@ -1,0 +1,7 @@
+num_epochs: 1
+
+modes:
+  - features-eval
+
+device: 0
+#device: 'cpu'

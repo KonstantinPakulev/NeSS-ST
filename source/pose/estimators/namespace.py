@@ -1,0 +1,11 @@
+F_PYDEGENSAC = "F_PYDEGENSAC"
+E_PYOPENGV = "E_PYOPENGV"
+H_OPENCV = "H_OPENCV"
+H_PYDEGENSAC = "H_PYDEGENSAC"
+
+TWO_VIEW_ESTIMATORS = [F_PYDEGENSAC,
+                       E_PYOPENGV,
+                       H_OPENCV,
+                       H_PYDEGENSAC]
+
+COLMAP = "COLMAP"

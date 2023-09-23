@@ -1,0 +1,29 @@
+# @package _global_
+
+defaults:
+  - /models/doh: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'doh_disk'
+  log_dir: 'doh_disk'
+
+  doh:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:

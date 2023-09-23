@@ -1,0 +1,18 @@
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+    num_filters: 8
+    num_levels: 3
+    kernel_size: 5
+
+checkpoint:
+  rel_path: "models/keynet"
+  name: "keynet_pytorch"
+  remap: True
+
+eval_params:
+  nms_size: 15
+  score_thresh: 0.0

@@ -1,0 +1,24 @@
+# @package _global_
+
+datasets:
+  megadepth:
+    train:
+      csv_path: "/mnt/sda/datasets/MegaDepth/SceneInfo/train_disk.csv"
+      data_options:
+        - 'image'
+
+      process: False
+
+      transforms:
+        base: 'train'
+
+        grayscale:
+
+        resize:
+          width: -1
+          height: -1
+
+        crop1:
+          type: 'random_crop'
+          width: 560
+          height: 560

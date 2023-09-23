@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /models/shiss: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shiss_disk'

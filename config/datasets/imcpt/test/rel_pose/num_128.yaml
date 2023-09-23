@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/test/rel_pose/num_2k
+
+datasets:
+  imcpt:
+    test:
+      options_config:
+        features:
+          num_features: 128

@@ -1,0 +1,19 @@
+# @package _global_
+
+datasets:
+  hpatches:
+    htune:
+      csv_path: "/mnt/sda/datasets/HPatches/val_pairs.csv"
+
+      data_options:
+        - 'h'
+        - 'features'
+
+      options_config:
+        features:
+          input_keys:
+            - 'image_shape'
+
+      process: False
+
+      transforms:

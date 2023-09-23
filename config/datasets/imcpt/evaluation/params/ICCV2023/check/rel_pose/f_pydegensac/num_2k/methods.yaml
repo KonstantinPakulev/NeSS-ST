@@ -1,0 +1,97 @@
+eval_params:
+  estimator:
+    name: F_PYDEGENSAC
+    confidence: 0.9999
+    num_ransac_iter: 200000
+    min_num_inliers: 7
+  tuner:
+    matcher:
+      lowe_ratio:
+        start: 0.93
+        end: 1.0
+        step: 0.01
+    estimator:
+      inl_thresh:
+        start: 0.5
+        end: 1.7
+        step: 0.1
+  shi_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.6
+  sift_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.9
+  superpoint_disk:
+    matcher:
+      lowe_ratio: 0.95
+    estimator:
+      inl_thresh: 1.7
+  r2d2_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 1.1
+  keynet_disk:
+    matcher:
+      lowe_ratio: 0.93
+    estimator:
+      inl_thresh: 0.6
+  disk:
+    matcher:
+      lowe_ratio: 0.94
+    estimator:
+      inl_thresh: 0.9
+  rekd_disk:
+    matcher:
+      lowe_ratio: 0.96
+    estimator:
+      inl_thresh: 0.7
+  shiness_disk:
+    matcher:
+      lowe_ratio: 0.93
+    estimator:
+      inl_thresh: 1.0
+  doh_disk:
+    matcher:
+      lowe_ratio: 0.95
+    estimator:
+      inl_thresh: 0.7
+  log_disk:
+    matcher:
+      lowe_ratio: 0.94
+    estimator:
+      inl_thresh: 0.9
+  dohness_disk:
+    matcher:
+      lowe_ratio: 0.96
+    estimator:
+      inl_thresh: 0.8
+  logness_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8
+  shiss_disk:
+    matcher:
+      lowe_ratio: 0.96
+    estimator:
+      inl_thresh: 0.8
+  shiners_disk:
+    matcher:
+      lowe_ratio: 0.94
+    estimator:
+      inl_thresh: 1.4
+  shirs_disk:
+    matcher:
+      lowe_ratio: 0.98
+    estimator:
+      inl_thresh: 0.8
+  harris_disk:
+    matcher:
+      lowe_ratio: 0.99
+    estimator:
+      inl_thresh: 0.8

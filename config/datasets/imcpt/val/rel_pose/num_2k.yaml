@@ -1,0 +1,20 @@
+# @package _global_
+
+datasets:
+  imcpt:
+    test:
+      dataset_path: "/mnt/sda/datasets/IMCPT"
+      csv_path: "/mnt/sda/datasets/IMCPT/val_pairs.csv"
+
+      data_options:
+        - 'features'
+        - 'calib'
+
+      process: False
+
+      transforms:
+
+      entity_id:
+        - 'scene_name'
+        - 'image_name1'
+        - 'image_name2'

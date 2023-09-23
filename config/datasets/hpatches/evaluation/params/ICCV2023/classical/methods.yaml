@@ -1,0 +1,49 @@
+eval_params:
+  shi_disk:
+    matcher:
+      lowe_ratio: 1.0
+  sift_disk:
+    matcher:
+      lowe_ratio: 1.0
+  superpoint_disk:
+    matcher:
+      lowe_ratio: 1.0
+  r2d2_disk:
+    matcher:
+      lowe_ratio: 1.0
+  keynet_disk:
+    matcher:
+      lowe_ratio: 1.0
+  disk:
+    matcher:
+      lowe_ratio: 1.0
+  rekd_disk:
+    matcher:
+      lowe_ratio: 1.0
+  shiness_disk:
+    matcher:
+      lowe_ratio: 1.0
+  shiss_disk:
+    matcher:
+      lowe_ratio: 1.0
+  shirs_disk:
+    matcher:
+      lowe_ratio: 1.0
+  shiners_disk:
+    matcher:
+      lowe_ratio: 1.0
+  doh_disk:
+    matcher:
+      lowe_ratio: 1.0
+  log_disk:
+    matcher:
+      lowe_ratio: 1.0
+  dohness_disk:
+    matcher:
+      lowe_ratio: 1.0
+  logness_disk:
+    matcher:
+      lowe_ratio: 1.0
+  harris_disk:
+    matcher:
+      lowe_ratio: 1.0

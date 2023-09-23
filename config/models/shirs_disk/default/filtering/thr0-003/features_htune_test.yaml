@@ -1,0 +1,10 @@
+              # @package _global_
+defaults:
+- /models/shirs_disk/default: features_htune_test
+
+models:
+  model_name: shirs#flt@thr0-003_disk
+  log_dir: shirs_disk/filtering/thr0-003
+  shirs:
+    eval_params:
+      score_thresh: 0.003

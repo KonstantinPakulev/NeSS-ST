@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/features/val
+  - /datasets/imcpt/htune/rel_pose/num_2k
+  - /datasets/base/loader/features@datasets.imcpt.loader
+  - /datasets/base/loader/htune@datasets.imcpt.loader
+  - /datasets/base/evaluation/features/num_2k@datasets.imcpt.evaluation
+  - /datasets/base/evaluation/htune/rel_pose/lowe_ratio@datasets.imcpt.evaluation
+
+datasets:
+  dataset_name: "imcpt"
+  evaluation_task: 'rel_pose'
+  backend: 'f_pydegensac/2k'

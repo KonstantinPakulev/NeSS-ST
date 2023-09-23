@@ -1,0 +1,7 @@
+train:
+  rs_loss:
+    nms_size: 5
+    score_thresh: 0.005
+    topk: 1024
+    scale_factor: 2.0
+    num_samples: 100

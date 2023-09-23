@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /models/sift: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'sift_disk'
+
+  disk:
+    modules:
+      descriptor:
+        idx: 1
+        process_idx: 1

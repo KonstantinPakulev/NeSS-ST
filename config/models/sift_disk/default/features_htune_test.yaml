@@ -1,0 +1,29 @@
+# @package _global_
+
+defaults:
+  - /models/sift: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'sift_disk'
+  log_dir: 'sift_disk'
+
+  sift:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:

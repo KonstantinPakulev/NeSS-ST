@@ -1,0 +1,25 @@
+# @package _global_
+
+defaults:
+  - /models/shiners: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shiners_disk'
+  log_dir: 'shiners'
+
+  shiners:
+    train:
+      forward_modules:
+        - 'detector'
+
+    test:
+      forward_modules:
+
+  disk:
+    test:
+      forward_modules:
+
+    modules:
+      descriptor:
+        save: False

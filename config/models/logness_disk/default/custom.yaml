@@ -1,0 +1,13 @@
+# @package _global_
+
+defaults:
+  - /models/logness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: logness_disk
+
+  logness:
+    checkpoint:
+      rel_path: models/logness/filtering/thr0-017
+      name: r_mAA-t_mAA=0.6865

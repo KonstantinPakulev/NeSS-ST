@@ -1,0 +1,16 @@
+htune:
+  mode_epoch: 1
+
+  metric_log_iter: -1
+
+  metrics:
+    htune:
+      param: "inl_thresh"
+
+      num_processes: 21
+
+      hcr_err_thresh: 5
+
+      reduce: True
+      output_keys:
+        - hcr_mAA

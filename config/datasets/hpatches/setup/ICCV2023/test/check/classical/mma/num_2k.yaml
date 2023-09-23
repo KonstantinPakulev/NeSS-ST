@@ -1,0 +1,21 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/setup/ICCV2023/test/classical/mma/num_2k@_global_
+
+datasets:
+  dataset_name: 'hpatches'
+  evaluation_task: 'classical'
+  backend: 'mma/2k'
+
+  hpatches:
+    loader:
+      features:
+        batch_size: 1
+        num_samples: 6
+        sampler: 'subset'
+
+      test:
+        batch_size: 3
+        num_samples: 3
+        sampler: 'subset'

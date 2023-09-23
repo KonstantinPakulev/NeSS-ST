@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - /models/shiness: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'shiness_hardnet'
+  log_dir: 'shiness_hardnet'
+
+  shiness:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+    checkpoint:
+      rel_path: "models/shiness"
+      name: "r_mAA=0.7706"
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

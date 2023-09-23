@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/features/val
+  - /datasets/imcpt/val/rel_pose/num_2k
+  - /datasets/base/loader/features@datasets.imcpt.loader
+  - /datasets/base/loader/test@datasets.imcpt.loader
+  - /datasets/imcpt/evaluation/features/val@datasets.imcpt.evaluation
+  - /datasets/imcpt/evaluation/train_val/rel_pose@datasets.imcpt.evaluation

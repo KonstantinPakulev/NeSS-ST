@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+  - /models/disk: detector_descriptor
+
+models:
+  model_name: 'disk'
+  log_dir: 'disk'
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

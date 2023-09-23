@@ -1,0 +1,29 @@
+# @package _global_
+
+defaults:
+  - /models/r2d2: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'r2d2_disk'
+  log_dir: 'r2d2_disk'
+
+  r2d2:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:

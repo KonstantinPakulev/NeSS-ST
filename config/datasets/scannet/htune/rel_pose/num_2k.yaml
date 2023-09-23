@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/htune@datasets.scannet
+
+datasets:
+  scannet:
+    htune:
+      csv_path: "/mnt/sda/datasets/ScanNet/val_pairs.csv"

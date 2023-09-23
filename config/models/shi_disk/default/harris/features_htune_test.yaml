@@ -1,0 +1,29 @@
+# @package _global_
+
+defaults:
+  - /models/shi: harris
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shi#harris_disk'
+  log_dir: 'shi_disk/harris'
+
+  shi:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:

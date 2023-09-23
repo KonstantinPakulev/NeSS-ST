@@ -1,0 +1,15 @@
+test:
+  mode_epoch: 1
+
+  metric_log_iter: -1
+
+  metrics:
+    rep:
+      px_thresh:
+        start: 1.0
+        end: 10.0
+        step: 1.0
+
+      reduce: False
+      output_keys:
+        - rep

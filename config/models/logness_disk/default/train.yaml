@@ -1,0 +1,25 @@
+# @package _global_
+
+defaults:
+  - /models/logness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'logness_disk'
+  log_dir: 'logness'
+
+  logness:
+    train:
+      forward_modules:
+        - 'detector'
+
+    test_rel_pose:
+      forward_modules:
+
+  disk:
+    test_rel_pose:
+      forward_modules:
+
+    modules:
+      descriptor:
+        save: False

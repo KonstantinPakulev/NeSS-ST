@@ -1,0 +1,15 @@
+input_channels: 1
+
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+    gauss_size: 3
+    gauss_cov: 2
+
+    loc: True
+
+eval_params:
+  nms_size: 5

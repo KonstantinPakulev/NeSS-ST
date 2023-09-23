@@ -1,0 +1,11 @@
+num_epochs: 1
+
+modes:
+  - custom-eval
+
+device: 'cpu'
+#device: 0
+
+cwd: '/home/konstantin/personal/Summertime'
+
+return_output: True

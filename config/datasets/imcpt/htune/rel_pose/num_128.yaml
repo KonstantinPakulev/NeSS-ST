@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/htune/rel_pose/num_2k
+
+datasets:
+  imcpt:
+    htune:
+      options_config:
+        features:
+          num_features: 128

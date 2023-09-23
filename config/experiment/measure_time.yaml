@@ -1,0 +1,12 @@
+num_epochs: 1
+
+modes:
+  - test-eval
+
+device: 0
+# TODO. Is it really should be there?
+measure_time: True
+
+cwd: '/home/konstantin/personal/Summertime'
+
+return_output: True

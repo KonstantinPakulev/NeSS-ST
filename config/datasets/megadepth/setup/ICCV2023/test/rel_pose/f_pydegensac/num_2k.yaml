@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /datasets/megadepth/features/test
+  - /datasets/megadepth/test/rel_pose/num_2k
+  - /datasets/base/loader/features@datasets.megadepth.loader
+  - /datasets/base/loader/test@datasets.megadepth.loader
+  - /datasets/base/evaluation/features/num_2k@datasets.megadepth.evaluation
+  - /datasets/base/evaluation/test/rel_pose@datasets.megadepth.evaluation
+
+datasets:
+  dataset_name: 'megadepth'
+  evaluation_task: 'rel_pose'
+  backend: 'f_pydegensac/2k'

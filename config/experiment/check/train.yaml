@@ -1,0 +1,22 @@
+# @package _global_
+
+defaults:
+  - /experiment/train
+
+experiment:
+  num_epochs: 2
+
+  modes:
+    - train
+    - features-eval
+    - test-eval
+
+  device: 0
+
+  clean_log_dir: True
+
+  checkpoint_saver:
+    bind_mode: test
+    optimizer_mode: train
+    score_name: 'r_mAA-t_mAA'
+    num_saved: 5

@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /models/superpoint: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'superpoint_disk'
+
+  disk:
+    modules:
+      descriptor:
+        idx: 2
+        process_idx: 2

@@ -1,0 +1,26 @@
+# @package _global_
+
+defaults:
+  - /models/dohness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'dohness_disk'
+  log_dir: 'dohness'
+
+  dohness:
+    train:
+      forward_modules:
+        - 'detector'
+
+    test_rel_pose:
+      forward_modules:
+
+  disk:
+    test_rel_pose:
+      forward_modules:
+
+    modules:
+      descriptor:
+        save: False
+

@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/test/rel_pose/num_512
+  - /datasets/base/loader/test@datasets.imcpt.loader
+  - /datasets/base/evaluation/test/rel_pose@datasets.imcpt.evaluation
+
+datasets:
+  dataset_name: "imcpt"
+  evaluation_task: 'rel_pose'
+  backend: 'f_pydegensac/512'

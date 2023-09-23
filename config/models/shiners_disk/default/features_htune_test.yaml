@@ -1,0 +1,20 @@
+# @package _global_
+
+defaults:
+- /models/shiners: detector
+- /models/disk: descriptor
+
+models:
+  model_name: shiners_disk
+  log_dir: shiners_disk
+
+  shiners:
+    checkpoint:
+      rel_path: models/shiners
+      name: r_mAA-t_mAA=0.6579
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

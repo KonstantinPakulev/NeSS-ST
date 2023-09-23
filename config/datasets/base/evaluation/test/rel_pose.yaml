@@ -1,0 +1,14 @@
+test:
+  mode_epoch: 1
+
+  metric_log_iter: -1
+
+  metrics:
+    rel_pose:
+      num_processes: 20
+
+      reduce: False
+      output_keys:
+        - r_err
+        - t_err
+        - num_inl

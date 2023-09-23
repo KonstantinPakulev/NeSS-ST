@@ -1,0 +1,20 @@
+# @package _global_
+
+datasets:
+  megadepth:
+    test:
+      csv_path: "/mnt/sda/datasets/MegaDepth/SceneInfo/test_pairs.csv"
+
+      data_options:
+        - 'features'
+        - 'calib'
+
+      process: False
+
+      transforms:
+        base: 'test'
+
+      entity_id:
+        - 'scene_name'
+        - 'image_name1'
+        - 'image_name2'

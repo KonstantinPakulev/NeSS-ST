@@ -1,0 +1,26 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/custom
+  - /datasets/hpatches/evaluation/params/ICCV2023/rel_pose/h_opencv/num_2k/methods@datasets.hpatches.evaluation.custom
+#  - /datasets/hpatches/evaluation/params/ICCV023/classical/methods@datasets.hpatches.evaluation.custom
+
+datasets:
+  hpatches:
+    custom:
+      csv_path: "/mnt/sda/datasets/HPatches/val_pairs.csv"
+
+    loader:
+      custom:
+        batch_size: 1
+        num_samples: 1
+
+        sampler: 'start_seq'
+        start_from: 0
+
+        num_workers: 0
+
+    evaluation:
+      custom:
+        eval_params:
+          topk: 2048

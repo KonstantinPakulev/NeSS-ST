@@ -1,0 +1,19 @@
+input_channels: 3
+
+input_size_divisor: 2
+
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+checkpoint:
+  rel_path: "models/r2d2"
+  name: "r2d2_WAF_N16"
+  remap: True
+
+eval_params:
+  nms_size: 3
+  score_thresh: 0.7
+  conf_thresh: 0.7

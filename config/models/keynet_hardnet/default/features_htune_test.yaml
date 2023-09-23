@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/keynet: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'keynet_hardnet'
+  log_dir: 'keynet_hardnet'
+
+  keynet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

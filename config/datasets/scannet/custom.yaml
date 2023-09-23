@@ -1,0 +1,17 @@
+custom:
+  csv_path: "/mnt/sda/datasets/ScanNet/val_pairs.csv"
+  data_options:
+    - 'image'
+    - 'calib'
+
+  process: True
+
+  transforms:
+    grayscale:
+
+    resize:
+      width: -1
+      height: -1
+
+    crop:
+      type: 'divisor_crop'

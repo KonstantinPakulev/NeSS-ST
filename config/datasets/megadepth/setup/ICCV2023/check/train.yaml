@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - /datasets/megadepth/setup/ICCV2023/train@_global_
+
+datasets:
+  megadepth:
+    loader:
+      train:
+        num_samples: 84
+
+  imcpt:
+    loader:
+      test:
+        num_samples: 10
+        sampler: 'subset'

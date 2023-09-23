@@ -1,0 +1,10 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/features@datasets.scannet
+
+datasets:
+  scannet:
+    features:
+      csv_path: "/mnt/sda/datasets/ScanNet/test.csv"
+

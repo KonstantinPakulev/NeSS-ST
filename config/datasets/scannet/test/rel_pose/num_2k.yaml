@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/test@datasets.scannet
+
+datasets:
+  scannet:
+    test:
+      data_options:
+        - 'features'
+        - 'calib'
+
+      entity_id:
+        - 'image_name1'
+        - 'image_name2'
+        - 'frame_interval'
+
+      csv_path: "/mnt/sda/datasets/ScanNet/test_pairs.csv"

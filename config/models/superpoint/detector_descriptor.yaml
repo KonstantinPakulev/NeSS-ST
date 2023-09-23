@@ -1,0 +1,30 @@
+input_channels: 1
+
+input_size_divisor: 8
+
+modules:
+  backbone:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+  detector:
+    idx: 1
+    default_idx: 1
+    process_idx: 1
+
+  descriptor:
+    idx: 2
+    default_idx: 2
+    process_idx: 2
+
+checkpoint:
+  rel_path: "models/superpoint"
+  name: "superpoint"
+  remap: True
+
+eval_params:
+  nms_size: 5
+  score_thresh: 0.015
+  matcher: 'l2'
+  lowe_ratio: 0.98

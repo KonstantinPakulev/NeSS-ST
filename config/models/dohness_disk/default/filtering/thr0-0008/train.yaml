@@ -1,0 +1,7 @@
+            # @package _global_
+defaults:
+- /models/dohness_disk/default: train
+
+models:
+  model_name: dohness#flt@thr0-0008_disk
+  log_dir: dohness/filtering/thr0-0008

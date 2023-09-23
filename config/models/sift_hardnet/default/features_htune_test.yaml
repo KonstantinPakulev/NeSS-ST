@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/sift: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'sift_hardnet'
+  log_dir: 'sift_hardnet'
+
+  sift:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

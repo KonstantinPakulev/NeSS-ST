@@ -1,0 +1,12 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/features@datasets.megadepth
+
+datasets:
+  megadepth:
+    features:
+      csv_path: "/mnt/sda/datasets/MegaDepth/SceneInfo/test.csv"
+
+      transforms:
+        base: 'test'

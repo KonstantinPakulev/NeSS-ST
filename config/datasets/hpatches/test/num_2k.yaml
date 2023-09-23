@@ -1,0 +1,24 @@
+# @package _global_
+
+datasets:
+  hpatches:
+    test:
+      csv_path: "/mnt/sda/datasets/HPatches/test_pairs.csv"
+
+      data_options:
+        - 'h'
+        - 'features'
+
+      options_config:
+        features:
+          input_keys:
+            - 'image_shape'
+
+      process: False
+
+      transforms:
+
+      entity_id:
+        - 'scene_name'
+        - 'image_name1'
+        - 'image_name2'

@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/shi: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'shi_hardnet'
+  log_dir: 'shi_hardnet'
+
+  shi:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

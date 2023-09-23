@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/shi: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shi_disk'
+  log_dir: 'shi_disk'
+
+  shi:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/rekd: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'rekd_hardnet'
+  log_dir: 'rekd_hardnet'
+
+  rekd:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

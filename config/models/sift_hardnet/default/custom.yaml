@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /models/sift: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'sift_hardnet'

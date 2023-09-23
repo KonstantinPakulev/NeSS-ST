@@ -1,0 +1,11 @@
+           # @package _global_
+
+defaults:
+- /models/shiness_disk/default: custom
+
+models:
+  model_name: shiness#h@scale1-414_disk
+  shiness:
+    checkpoint:
+      rel_path: train/shiness/homography/scale1-414
+      name: r_mAA-t_mAA=0.6885

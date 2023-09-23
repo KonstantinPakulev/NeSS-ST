@@ -1,0 +1,12 @@
+          # @package _global_
+
+defaults:
+- /models/shiness_disk/default: features_htune_test
+
+models:
+  model_name: shiness#h@scale2-378_disk
+  log_dir: shiness_disk/homography/scale2-378
+  shiness:
+    checkpoint:
+      rel_path: models/shiness/homography/scale2-378
+      name: r_mAA-t_mAA=0.6866

@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/features@datasets.hpatches
+
+datasets:
+  hpatches:
+    features:
+      csv_path: "/mnt/sda/datasets/HPatches/test.csv"

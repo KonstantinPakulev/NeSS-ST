@@ -1,0 +1,20 @@
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+    factor_scaling_pyramid: 1.2
+    group_size: 36
+
+    dim_first: 2
+    dim_second: 2
+    dim_third: 2
+
+checkpoint:
+  rel_path: "models/rekd"
+  name: "best"
+  remap: True
+
+eval_params:
+  nms_size: 15

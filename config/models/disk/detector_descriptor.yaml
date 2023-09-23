@@ -1,0 +1,19 @@
+input_channels: 3
+
+input_size_divisor: 16
+
+modules:
+  detector_descriptor:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+checkpoint:
+  name: "depth-save"
+  rel_path: "models/disk"
+  remap: True
+
+eval_params:
+  nms_size: 5
+  matcher:
+    name: 'l2'

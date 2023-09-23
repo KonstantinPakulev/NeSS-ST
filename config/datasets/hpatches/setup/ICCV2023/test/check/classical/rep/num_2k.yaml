@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/setup/ICCV2023/test/classical/rep/num_2k@_global_
+
+datasets:
+  dataset_name: 'hpatches'
+  evaluation_task: 'classical'
+  backend: 'rep/2k'
+
+  hpatches:
+    loader:
+      test:
+        batch_size: 3
+        num_samples: 3
+        sampler: 'subset'

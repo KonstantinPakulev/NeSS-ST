@@ -1,0 +1,10 @@
+              # @package _global_
+defaults:
+- /models/shiss_disk/default: features_htune_test
+
+models:
+  model_name: shiss#flt@thr0-005_disk
+  log_dir: shiss_disk/filtering/thr0-005
+  shiss:
+    eval_params:
+      score_thresh: 0.005

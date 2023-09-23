@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/scannet/htune/rel_pose/num_2k
+  - /datasets/base/loader/htune@datasets.scannet.loader
+  - /datasets/base/evaluation/htune/rel_pose/inl_thresh@datasets.scannet.evaluation
+
+datasets:
+  dataset_name: 'scannet'
+  evaluation_task: 'rel_pose'
+  backend: 'e_pyopengv/2k'

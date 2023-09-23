@@ -1,0 +1,28 @@
+# @package _global_
+
+defaults:
+  - /models/superpoint: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'superpoint_disk'
+  log_dir: 'superpoint_disk'
+
+  superpoint:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    modules:
+      descriptor:
+        idx: 2
+        process_idx: 2
+
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

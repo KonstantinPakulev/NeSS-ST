@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="405b43c0-2d23-4928-898c-bd72d9bc9640" name="rucula_home">
+        <fileTransfer accessType="SFTP" host="localhost" port="7777" sshConfigId="08447ec5-bd44-4e77-92e4-fb084b59b01d" sshConfig="konstantin@localhost:7777 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3dc85a6f-53eb-4eb8-8168-f1f7efe21f15" name="lechuga_home">
+        <fileTransfer accessType="SFTP" host="localhost" port="7777" sshConfigId="08447ec5-bd44-4e77-92e4-fb084b59b01d" sshConfig="konstantin@localhost:7777 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5cd0269c-0035-4302-aef7-52c1d89a01bc" name="apio_home">
+        <fileTransfer accessType="SFTP" host="localhost" port="7777" sshConfigId="08447ec5-bd44-4e77-92e4-fb084b59b01d" sshConfig="konstantin@localhost:7777 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c0bd6f94-5809-45d1-8820-abab2dd4a0c0" name="lechuga_skoltech">
+        <fileTransfer accessType="SFTP" host="10.16.84.24" port="22" sshConfigId="8c39b974-2ebd-4822-8db6-f3f61441f406" sshConfig="konstantin@10.16.84.24:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b53810f4-eea6-4176-a045-b849d3274fca" name="apio_skoltech">
+        <fileTransfer accessType="SFTP" host="10.16.84.31" port="22" sshConfigId="47052982-d536-445a-965a-0feee21ed657" sshConfig="konstantin@10.16.84.31:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

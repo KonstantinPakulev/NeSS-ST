@@ -1,0 +1,29 @@
+# @package _global_
+
+defaults:
+  - /models/keynet: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'keynet_disk'
+  log_dir: 'keynet_disk'
+
+  keynet:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune_rel_pose:
+      forward_modules:
+
+    test_rel_pose:
+      forward_modules:
+
+    test:
+      forward_modules:

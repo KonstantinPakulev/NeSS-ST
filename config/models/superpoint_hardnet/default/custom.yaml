@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /models/superpoint: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'superpoint_hardnet'
+
+  hardnet:
+    modules:
+      descriptor:
+        idx: 2
+        process_idx: 2

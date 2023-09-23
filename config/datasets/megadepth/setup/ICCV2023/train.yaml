@@ -1,0 +1,6 @@
+# @package _global_
+
+defaults:
+  - /datasets/megadepth/train
+  - /datasets/megadepth/loader/train
+  - /datasets/megadepth/evaluation/train

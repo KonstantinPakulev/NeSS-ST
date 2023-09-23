@@ -1,0 +1,10 @@
+        # @package _global_
+defaults:
+- /models/shiness_disk/default: custom
+
+models:
+  model_name: shiness#flt@thr0-004_disk
+  shiness:
+    checkpoint:
+      rel_path: train/shiness/filtering/thr0-004
+      name: r_mAA-t_mAA=0.6851

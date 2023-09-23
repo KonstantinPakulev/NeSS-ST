@@ -1,0 +1,11 @@
+        # @package _global_
+defaults:
+- /models/shiness_disk/default: features_htune_test
+
+models:
+  model_name: shiness#flt@thr0-007_disk
+  log_dir: shiness_disk/filtering/thr0-007
+  shiness:
+    checkpoint:
+      rel_path: models/shiness/filtering/thr0-007
+      name: r_mAA-t_mAA=0.6894

@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - /models/dohness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'dohness_disk'
+  log_dir: 'dohness_disk'
+
+  dohness:
+    checkpoint:
+      rel_path: models/dohness/filtering/thr0-0006
+      name: r_mAA-t_mAA=0.6674
+
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/features@datasets.hpatches
+
+datasets:
+  hpatches:
+    features:
+      csv_path: "/mnt/sda/datasets/HPatches/val.csv"
+
+      data_options:
+        - 'image'
+
+      transforms:
+        grayscale:
+
+        resize:
+          width: -1
+          height: -1
+
+        crop1:
+          type: 'divisor_crop'
+
+        crop2:
+          type: 'central_crop'
+          height: 1200
+          width: 1600

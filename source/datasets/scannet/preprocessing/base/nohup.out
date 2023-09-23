@@ -1,0 +1,299 @@
+exporting 784  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0707_00/depth
+exporting 784 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0707_00/color
+exporting 784 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0707_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0707_00/intrinsic
+exporting 1182  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0708_00/depth
+exporting 1182 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0708_00/color
+exporting 1182 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0708_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0708_00/intrinsic
+exporting 936  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0709_00/depth
+exporting 936 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0709_00/color
+exporting 936 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0709_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0709_00/intrinsic
+exporting 1807  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0710_00/depth
+exporting 1807 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0710_00/color
+exporting 1807 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0710_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0710_00/intrinsic
+exporting 3361  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0711_00/depth
+exporting 3361 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0711_00/color
+exporting 3361 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0711_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0711_00/intrinsic
+exporting 4787  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0712_00/depth
+exporting 4787 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0712_00/color
+exporting 4787 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0712_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0712_00/intrinsic
+exporting 2336  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0713_00/depth
+exporting 2336 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0713_00/color
+exporting 2336 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0713_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0713_00/intrinsic
+exporting 1036  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0714_00/depth
+exporting 1036 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0714_00/color
+exporting 1036 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0714_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0714_00/intrinsic
+exporting 646  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0715_00/depth
+exporting 646 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0715_00/color
+exporting 646 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0715_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0715_00/intrinsic
+exporting 688  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0716_00/depth
+exporting 688 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0716_00/color
+exporting 688 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0716_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0716_00/intrinsic
+exporting 1114  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0717_00/depth
+exporting 1114 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0717_00/color
+exporting 1114 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0717_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0717_00/intrinsic
+exporting 326  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0718_00/depth
+exporting 326 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0718_00/color
+exporting 326 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0718_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0718_00/intrinsic
+exporting 1225  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0719_00/depth
+exporting 1225 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0719_00/color
+exporting 1225 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0719_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0719_00/intrinsic
+exporting 2808  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0720_00/depth
+exporting 2808 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0720_00/color
+exporting 2808 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0720_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0720_00/intrinsic
+exporting 3773  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0721_00/depth
+exporting 3773 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0721_00/color
+exporting 3773 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0721_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0721_00/intrinsic
+exporting 1195  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0722_00/depth
+exporting 1195 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0722_00/color
+exporting 1195 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0722_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0722_00/intrinsic
+exporting 1734  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0723_00/depth
+exporting 1734 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0723_00/color
+exporting 1734 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0723_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0723_00/intrinsic
+exporting 1412  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0724_00/depth
+exporting 1412 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0724_00/color
+exporting 1412 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0724_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0724_00/intrinsic
+exporting 1041  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0725_00/depth
+exporting 1041 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0725_00/color
+exporting 1041 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0725_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0725_00/intrinsic
+exporting 1283  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0726_00/depth
+exporting 1283 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0726_00/color
+exporting 1283 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0726_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0726_00/intrinsic
+exporting 2036  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0727_00/depth
+exporting 2036 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0727_00/color
+exporting 2036 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0727_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0727_00/intrinsic
+exporting 1078  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0728_00/depth
+exporting 1078 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0728_00/color
+exporting 1078 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0728_00/pose
+exporting camera intrinsics to exporting 3218  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0754_00/depth
+exporting 3218 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0754_00/color
+exporting 3218 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0754_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0754_00/intrinsic
+exporting 3546  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0755_00/depth
+exporting 3546 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0755_00/color
+exporting 3546 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0755_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0755_00/intrinsic
+exporting 3503  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0756_00/depth
+exporting 3503 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0756_00/color
+exporting 3503 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0756_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0756_00/intrinsic
+exporting 8336  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0757_00/depth
+exporting 8336 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0757_00/color
+exporting 8336 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0757_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0757_00/intrinsic
+exporting 1833  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0758_00/depth
+exporting 1833 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0758_00/color
+exporting 1833 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0758_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0758_00/intrinsic
+exporting 1775  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0759_00/depth
+exporting 1775 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0759_00/color
+exporting 1775 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0759_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0759_00/intrinsic
+exporting 1566  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0760_00/depth
+exporting 1566 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0760_00/color
+exporting 1566 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0760_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0760_00/intrinsic
+exporting 5190  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0761_00/depth
+exporting 5190 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0761_00/color
+exporting 5190 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0761_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0761_00/intrinsic
+exporting 1638  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0762_00/depth
+exporting 1638 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0762_00/color
+exporting 1638 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0762_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0762_00/intrinsic
+exporting 1111  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0763_00/depth
+exporting 1111 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0763_00/color
+exporting 1111 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0763_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0763_00/intrinsic
+exporting 2408  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0764_00/depth
+exporting 2408 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0764_00/color
+exporting 2408 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0764_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0764_00/intrinsic
+exporting 1977  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0765_00/depth
+exporting 1977 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0765_00/color
+exporting 1977 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0765_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0765_00/intrinsic
+exporting 3504  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0766_00/depth
+exporting 3504 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0766_00/color
+exporting 3504 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0766_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0766_00/intrinsic
+exporting 1945  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0767_00/depth
+exporting 1945 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0767_00/color
+exporting 1945 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0767_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0767_00/intrinsic
+exporting 4026  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0768_00/depth
+exporting 4026 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0768_00/color
+exporting 4026 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0768_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0768_00/intrinsic
+exporting 1205  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0769_00/depth
+exporting 1205 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0769_00/color
+exporting 1205 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0769_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0769_00/intrinsic
+exporting 3414  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0770_00/depth
+exporting 3414 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0770_00/color
+exporting 3414 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0770_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0770_00/intrinsic
+exporting 1057  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0771_00/depth
+exporting 1057 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0771_00/color
+exporting 1057 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0771_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0771_00/intrinsic
+exporting 2392  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0772_00/depth
+exporting 2392 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0772_00/color
+exporting 2392 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0772_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0772_00/intrinsic
+exporting 2082  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0773_00/depth
+exporting 2082 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0773_00/color
+exporting 2082 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0773_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0773_00/intrinsic
+exporting 2112  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0774_00/depth
+exporting 2112 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0774_00/color
+exporting 2112 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0774_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0774_00/intrinsic
+exporting 2288  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0775_00/depth
+exporting 2288 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0775_00/color
+exporting 2288 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0775_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0775_00/intrinsic
+exporting 3478  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0776_00/depth
+exporting 3478 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0776_00/color
+exporting 3478 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0776_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0776_00/intrinsic
+exporting 2044  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0777_00/depth
+exporting 2044 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0777_00/color
+exporting 2044 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0777_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0777_00/intrinsic
+exporting 1663  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0778_00/depth
+exporting 1663 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0778_00/color
+exporting 1663 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0778_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0778_00/intrinsic
+exporting 1426  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0779_00/depth
+exporting 1426 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0779_00/color
+exporting 1426 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0779_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0779_00/intrinsic
+exporting 1940  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0780_00/depth
+exporting 1940 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0780_00/color
+exporting 1940 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0780_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0780_00/intrinsic
+exporting 2345  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0781_00/depth
+exporting 2345 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0781_00/color
+exporting 2345 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0781_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0781_00/intrinsic
+exporting 1537  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0782_00/depth
+exporting 1537 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0782_00/color
+exporting 1537 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0782_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0782_00/intrinsic
+exporting 1568  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0783_00/depth
+exporting 1568 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0783_00/color
+exporting 1568 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0783_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0783_00/intrinsic
+exporting 4926  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0784_00/depth
+exporting 4926 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0784_00/color
+exporting 4926 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0784_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0784_00/intrinsic
+exporting 3980  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0785_00/depth
+exporting 3980 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0785_00/color
+exporting 3980 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0785_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0785_00/intrinsic
+exporting 1758  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0786_00/depth
+exporting 1758 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0786_00/color
+exporting 1758 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0786_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0786_00/intrinsic
+exporting 2940  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0787_00/depth
+exporting 2940 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0787_00/color
+exporting 2940 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0787_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0787_00/intrinsic
+exporting 1037  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0788_00/depth
+exporting 1037 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0788_00/color
+exporting 1037 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0788_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0788_00/intrinsic
+exporting 870  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0789_00/depth
+exporting 870 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0789_00/color
+exporting 870 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0789_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0789_00/intrinsic
+exporting 1026  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0790_00/depth
+exporting 1026 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0790_00/color
+exporting 1026 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0790_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0790_00/intrinsic
+exporting 2392  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0791_00/depth
+exporting 2392 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0791_00/color
+exporting 2392 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0791_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0791_00/intrinsic
+exporting 854  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0792_00/depth
+exporting 854 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0792_00/color
+exporting 854 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0792_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0792_00/intrinsic
+exporting 3457  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0793_00/depth
+exporting 3457 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0793_00/color
+exporting 3457 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0793_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0793_00/intrinsic
+exporting 1114  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0794_00/depth
+exporting 1114 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0794_00/color
+exporting 1114 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0794_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0794_00/intrinsic
+exporting 812  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0795_00/depth
+exporting 812 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0795_00/color
+exporting 812 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0795_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0795_00/intrinsic
+exporting 1277  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0796_00/depth
+exporting 1277 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0796_00/color
+exporting 1277 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0796_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0796_00/intrinsic
+exporting 1379  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0797_00/depth
+exporting 1379 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0797_00/color
+exporting 1379 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0797_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0797_00/intrinsic
+exporting 842  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0798_00/depth
+exporting 842 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0798_00/color
+exporting 842 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0798_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0798_00/intrinsic
+exporting 1161  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0799_00/depth
+exporting 1161 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0799_00/color
+exporting 1161 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0799_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0799_00/intrinsic
+exporting 736  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0800_00/depth
+exporting 736 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0800_00/color
+exporting 736 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0800_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0800_00/intrinsic
+exporting 578  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0801_00/depth
+exporting 578 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0801_00/color
+exporting 578 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0801_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0801_00/intrinsic
+exporting 1598  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0802_00/depth
+exporting 1598 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0802_00/color
+exporting 1598 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0802_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0802_00/intrinsic
+exporting 1823  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0803_00/depth
+exporting 1823 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0803_00/color
+exporting 1823 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0803_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0803_00/intrinsic
+exporting 1043  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0804_00/depth
+exporting 1043 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0804_00/color
+exporting 1043 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0804_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0804_00/intrinsic
+exporting 978  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0805_00/depth
+exporting 978 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0805_00/color
+exporting 978 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0805_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0805_00/intrinsic
+exporting 1184  depth frames to /home/konstantin/patata/ScanNet/scans_test/scene0806_00/depth
+exporting 1184 color frames to /home/konstantin/patata/ScanNet/scans_test/scene0806_00/color
+exporting 1184 camera poses to /home/konstantin/patata/ScanNet/scans_test/scene0806_00/pose
+exporting camera intrinsics to /home/konstantin/patata/ScanNet/scans_test/scene0806_00/intrinsic

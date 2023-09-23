@@ -1,0 +1,10 @@
+features:
+  metric_log_iter: -1
+
+  metrics:
+    features:
+      output_keys:
+        - 'image_shape'
+
+  eval_params:
+    topk: 2048

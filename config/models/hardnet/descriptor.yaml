@@ -1,0 +1,18 @@
+input_channels: 1
+
+modules:
+  descriptor:
+    idx: 1
+    default_idx: 1
+    process_idx: 1
+
+    patch_size: 32
+
+checkpoint:
+  name: "hardnetps"
+  rel_path: "models/hardnet"
+  remap: True
+
+eval_params:
+  matcher:
+    name: 'l2'

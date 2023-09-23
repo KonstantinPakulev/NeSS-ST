@@ -1,0 +1,6 @@
+num_epochs: 1
+
+modes:
+  - htune-eval
+
+device: 0

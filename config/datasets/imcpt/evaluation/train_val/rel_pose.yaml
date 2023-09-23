@@ -1,0 +1,16 @@
+test:
+  mode_epoch: 1
+
+  metric_log_iter: -1
+
+  metrics:
+    rel_pose:
+      num_processes: 16
+
+      r_err_thresh: 10
+      t_err_thresh: 10
+
+      reduce: True
+      output_keys:
+        - r_mAA
+        - t_mAA

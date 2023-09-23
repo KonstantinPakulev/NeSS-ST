@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/htune/rel_pose/num_128
+  - /datasets/base/loader/htune@datasets.imcpt.loader
+  - /datasets/base/evaluation/htune/rel_pose/inl_thresh@datasets.imcpt.evaluation
+
+datasets:
+  dataset_name: "imcpt"
+  evaluation_task: 'rel_pose'
+  backend: 'f_pydegensac/128'

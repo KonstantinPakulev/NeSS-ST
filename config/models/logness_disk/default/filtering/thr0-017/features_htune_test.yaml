@@ -1,0 +1,11 @@
+        # @package _global_
+defaults:
+- /models/logness_disk/default: features_htune_test
+
+models:
+  model_name: logness#flt@thr0-017_disk
+  log_dir: logness_disk/filtering/thr0-017
+  logness:
+    checkpoint:
+      rel_path: models/logness/filtering/thr0-017
+      name: r_mAA-t_mAA=0.6865

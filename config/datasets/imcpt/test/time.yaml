@@ -1,0 +1,20 @@
+# @package _global_
+
+datasets:
+  imcpt:
+    test:
+      csv_path: "/mnt/sda/datasets/IMCPT/test_pairs.csv"
+      data_options:
+        - 'image'
+
+      process: True
+
+      transforms:
+        grayscale:
+
+        resize:
+          width: 640
+          height: 480
+
+        crop:
+          type: 'divisor_crop'

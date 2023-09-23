@@ -1,0 +1,25 @@
+# @package _global_
+
+defaults:
+  - /models/shiness: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shiness_disk'
+  log_dir: 'shiness'
+
+  shiness:
+    train:
+      forward_modules:
+        - 'detector'
+
+    test:
+      forward_modules:
+
+  disk:
+    test:
+      forward_modules:
+
+    modules:
+      descriptor:
+        save: False

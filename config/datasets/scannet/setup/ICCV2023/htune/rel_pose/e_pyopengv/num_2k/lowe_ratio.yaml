@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /datasets/scannet/features/val
+  - /datasets/scannet/htune/rel_pose/num_2k
+  - /datasets/base/loader/features@datasets.scannet.loader
+  - /datasets/base/loader/htune@datasets.scannet.loader
+  - /datasets/base/evaluation/features/num_2k@datasets.scannet.evaluation
+  - /datasets/base/evaluation/htune/rel_pose/lowe_ratio@datasets.scannet.evaluation
+
+datasets:
+  dataset_name: 'scannet'
+  evaluation_task: 'rel_pose'
+  backend: 'e_pyopengv/2k'

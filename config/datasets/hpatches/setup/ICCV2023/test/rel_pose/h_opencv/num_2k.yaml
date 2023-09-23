@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/features/test
+  - /datasets/hpatches/test/num_2k
+  - /datasets/base/loader/features@datasets.hpatches.loader
+  - /datasets/base/loader/test@datasets.hpatches.loader
+  - /datasets/hpatches/evaluation/features/num_2k@datasets.hpatches.evaluation
+  - /datasets/hpatches/evaluation/test/rel_pose@datasets.hpatches.evaluation
+
+datasets:
+  dataset_name: 'hpatches'
+  evaluation_task: 'rel_pose'
+  backend: 'h_opencv/2k'

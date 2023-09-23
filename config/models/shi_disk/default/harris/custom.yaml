@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /models/shi: harris
+  - /models/disk: descriptor
+
+models:
+  model_name: 'shi#harris_disk'

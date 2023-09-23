@@ -1,0 +1,22 @@
+train:
+  ss_loss:
+    nms_size: 5
+    score_thresh: 0.0006
+    topk: 1024
+
+    scale_factor: 2.0
+    num_samples: 100
+
+    ablations:
+      filtering:
+        tag_pattern: 'flt@thr{:.4f}'
+        log_pattern: 'thr{:.4f}'
+        sweep_param: 'score_thresh'
+        sweep_values:
+          - 0.0
+          - 0.0003
+          - 0.0004
+          - 0.0005
+          - 0.0006
+          - 0.0007
+          - 0.0008

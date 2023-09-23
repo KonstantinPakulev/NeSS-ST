@@ -1,0 +1,22 @@
+# @package _global_
+
+defaults:
+  - /datasets/imcpt/test/time
+  - /datasets/base/evaluation/test/time@datasets.imcpt.evaluation
+
+datasets:
+  imcpt:
+    loader:
+      test:
+        batch_size: 1
+        num_samples: 30
+
+        sampler: 'start_seq'
+        start_from: 0
+
+        num_workers: 0
+
+    evaluation:
+      test:
+        eval_params:
+          topk: 2048

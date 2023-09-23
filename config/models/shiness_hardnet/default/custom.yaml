@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - /models/devl: shi_u_est_conf_unet
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'devl-63_hardnet'
+
+  devl:
+    modules:
+      detector:
+        shi:
+          loc: False
+
+    checkpoint:
+      name: "r_mAA=0.7706"
+      is_train: True

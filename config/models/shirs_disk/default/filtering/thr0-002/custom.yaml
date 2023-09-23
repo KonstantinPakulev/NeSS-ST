@@ -1,0 +1,9 @@
+              # @package _global_
+defaults:
+- /models/shirs_disk/default: custom
+
+models:
+  model_name: shirs#flt@thr0-002_disk
+shirs:
+  eval_params:
+    score_thresh: 0.002

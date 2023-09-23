@@ -1,0 +1,17 @@
+num_epochs: 8
+
+modes:
+  - train
+  - features-eval
+  - test-eval
+
+device: 0
+#device: 'cpu'
+
+clean_log_dir: False
+
+checkpoint_saver:
+  bind_mode: test
+  optimizer_mode: train
+  score_name: 'r_mAA-t_mAA'
+  num_saved: 5

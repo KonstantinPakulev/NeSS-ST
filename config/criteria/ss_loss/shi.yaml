@@ -1,0 +1,31 @@
+train:
+  ss_loss:
+    nms_size: 5
+    score_thresh: 0.005
+    topk: 1024
+    scale_factor: 2.0
+    num_samples: 100
+
+    ablations:
+      filtering:
+        tag_pattern: 'flt@thr{:.3f}'
+        log_pattern: 'thr{:.3f}'
+        sweep_param: 'score_thresh'
+        sweep_values:
+          - 0.0
+          - 0.003
+          - 0.004
+          - 0.005
+          - 0.006
+          - 0.007
+
+      homography:
+        tag_pattern: 'h@scale{:.3f}'
+        log_pattern: 'scale{:.3f}'
+        sweep_param: 'scale_factor'
+        sweep_values:
+          - 1.414
+          - 1.681
+          - 2.0
+          - 2.378
+          - 2.828

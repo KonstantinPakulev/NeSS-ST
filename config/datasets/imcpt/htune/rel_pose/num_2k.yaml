@@ -1,0 +1,10 @@
+# @package _global_
+
+defaults:
+  - /datasets/base/htune@datasets.imcpt
+
+datasets:
+  imcpt:
+    htune:
+      dataset_path: "/mnt/sda/datasets/IMCPT"
+      csv_path: "/mnt/sda/datasets/IMCPT/val_pairs.csv"

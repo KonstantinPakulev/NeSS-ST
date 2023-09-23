@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - /models/disk: detector
+  - /models/hardnet: descriptor
+
+models:
+  model_name: 'disk_hardnet'
+  log_dir: 'disk_hardnet'
+
+  disk:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:
+
+  hardnet:
+    htune:
+      forward_modules:
+
+    test:
+      forward_modules:

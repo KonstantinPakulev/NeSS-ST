@@ -1,0 +1,8 @@
+            # @package _global_
+
+defaults:
+- /models/shiness_disk/default: train
+
+models:
+  model_name: shiness#h@scale2-000_disk
+  log_dir: shiness/homography/scale2-000

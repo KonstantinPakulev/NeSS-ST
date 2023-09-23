@@ -1,0 +1,10 @@
+        # @package _global_
+defaults:
+- /models/dohness_disk/default: custom
+
+models:
+  model_name: dohness#flt@thr0-0004_disk
+  dohness:
+    checkpoint:
+      rel_path: models/dohness/filtering/thr0-0004
+      name: r_mAA-t_mAA=0.6700

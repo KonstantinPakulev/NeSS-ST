@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /models/rekd: detector
+  - /models/disk: descriptor
+
+models:
+  model_name: 'rekd_disk'

@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /datasets/hpatches/test/num_2k
+  - /datasets/base/loader/test@datasets.hpatches.loader
+  - /datasets/hpatches/evaluation/test/classical/rep@datasets.hpatches.evaluation
+
+datasets:
+  dataset_name: 'hpatches'
+  evaluation_task: 'classical'
+  backend: 'rep/2k'

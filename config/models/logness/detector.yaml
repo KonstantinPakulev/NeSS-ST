@@ -1,0 +1,37 @@
+input_size_divisor: 16
+
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+    ness:
+      feature_channels: 3
+
+      down:
+        - 16
+        - 32
+        - 64
+        - 64
+        - 64
+
+      up:
+        - 64
+        - 64
+        - 64
+        - 1
+
+      min_ness: 0.0
+      max_ness: 32.0
+
+    log:
+      gauss_size: 3
+      gauss_cov: 2
+
+      loc: True
+
+eval_params:
+  nms_size: 5
+  score_thresh: 0.0
+

@@ -1,0 +1,11 @@
+test:
+  data_options:
+    - 'features'
+
+  process: False
+
+  transforms:
+
+  entity_id:
+    - 'image_name1'
+    - 'image_name2'

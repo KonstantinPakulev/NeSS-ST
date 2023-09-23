@@ -1,0 +1,23 @@
+input_channels: 1
+
+modules:
+  detector:
+    idx: 0
+    default_idx: 0
+    process_idx: 0
+
+    shi:
+      sobel_size: 3
+      window_size: 3
+      window_cov: 2
+
+      loc: True
+
+    rs:
+      scale_factor: 2.0
+      num_samples: 100
+      block_size: 1024
+
+eval_params:
+  nms_size: 5
+  score_thresh: 0.003

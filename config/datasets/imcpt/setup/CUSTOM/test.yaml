@@ -1,0 +1,40 @@
+# @package _global_
+defaults:
+  - /datasets/imcpt/evaluation/params/ICCV2023/rel_pose/f_pydegensac/num_2k/methods@datasets.imcpt.evaluation.custom
+
+datasets:
+  imcpt:
+    custom:
+      csv_path: "/mnt/sda/datasets/IMCPT/test_pairs.csv"
+
+      data_options:
+        - 'image'
+        - 'depth'
+        - 'calib'
+
+      transforms:
+        grayscale:
+
+        base: 'test'
+
+        resize:
+          width: -1
+          height: -1
+
+        crop:
+          type: 'divisor_crop'
+
+      process: True
+
+    loader:
+      custom:
+        batch_size: 1
+        num_samples: 1
+
+        sampler: 'start_seq'
+        start_from: 15413
+
+    evaluation:
+      custom:
+        eval_params:
+          topk: 2048
