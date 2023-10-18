@@ -1,5 +1,6 @@
-# NeSS-ST: Detecting Good and Stable Keypoints with a Neural Stability Score and the Shi-Tomasi detector
-### [[Arxiv](https://arxiv.org/abs/2307.01069)]
+# NeSS-ST: Detecting Good and Stable Keypoints with a Neural Stability Score and the Shi-Tomasi Detector
+
+## <p align="center">[Arxiv pre-print](https://arxiv.org/abs/2307.01069) | [ICCV 2023 camera-ready](https://openaccess.thecvf.com/content/ICCV2023/papers/Pakulev_NeSS-ST_Detecting_Good_and_Stable_Keypoints_with_a_Neural_Stability_ICCV_2023_paper.pdf) | [Supplementary material](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Pakulev_NeSS-ST_Detecting_Good_ICCV_2023_supplemental.pdf) | [Video](https://youtu.be/qnP3agH3FAI)</p> 
 
 ## Table of contents
 
@@ -136,9 +137,11 @@ The visualization of the results is done via Jupyter notebooks:
 
 ```
 @inproceedings{pakulev2023nessst,
-  title={NeSS-ST: Detecting Good and Stable Keypoints with a Neural Stability Score and the Shi-Tomasi detector},
-  author={Pakulev, Konstantin and Vakhitov, Alexander and Ferrer, Gonzalo},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2023}
+  author    = {Pakulev, Konstantin and Vakhitov, Alexander and Ferrer, Gonzalo},
+  title     = {NeSS-ST: Detecting Good and Stable Keypoints with a Neural Stability Score and the Shi-Tomasi detector},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  month     = {October},
+  year      = {2023},
+  pages     = {9578-9588}
 }
 ```
