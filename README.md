@@ -1,6 +1,6 @@
 # NeSS-ST: Detecting Good and Stable Keypoints with a Neural Stability Score and the Shi-Tomasi Detector
 
-## <p align="center">[Arxiv pre-print](https://arxiv.org/abs/2307.01069) | [ICCV 2023 camera-ready](https://openaccess.thecvf.com/content/ICCV2023/papers/Pakulev_NeSS-ST_Detecting_Good_and_Stable_Keypoints_with_a_Neural_Stability_ICCV_2023_paper.pdf) | [Supplementary material](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Pakulev_NeSS-ST_Detecting_Good_ICCV_2023_supplemental.pdf) | [Video](https://youtu.be/qnP3agH3FAI)</p> 
+## <p align="center">ICCV 2023</p> <p align="center"> [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Pakulev_NeSS-ST_Detecting_Good_and_Stable_Keypoints_with_a_Neural_Stability_ICCV_2023_paper.pdf) | [Supplemental](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Pakulev_NeSS-ST_Detecting_Good_ICCV_2023_supplemental.pdf) | [arXiv](https://arxiv.org/abs/2307.01069) | [Video](https://youtu.be/qnP3agH3FAI)</p> 
 
 ## Table of contents
 
