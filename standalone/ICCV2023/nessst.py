@@ -134,8 +134,8 @@ def create_coord_grid(shape, center=True, scale_factor=1.0):
 
 
 def apply_gaussian_filter(t, size, cov):
-    patch_coord = create_coord_grid((1, 1, size, size))
-    patch_center = torch.tensor([size / 2, size / 2]).view(1, 1, 1, 1, 2)
+    patch_coord = create_coord_grid((1, 1, size, size)).to(t.device)
+    patch_center = torch.tensor([size / 2, size / 2], device=t.device).view(1, 1, 1, 1, 2)
 
     diff = patch_coord - patch_center
 
