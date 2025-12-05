@@ -402,7 +402,7 @@ class NeSSST(nn.Module):
         self.min_ness = min_ness
         self.max_ness = max_ness
 
-    def __call__(self, image, image_gray, nms_size, k):
+    def __call__(self, image, image_gray, nms_size, k, return_kp_score=False):
         """
         :param image: B x 3 x H x W; torch.tensor
         """
@@ -420,12 +420,14 @@ class NeSSST(nn.Module):
 
         b, _, _, w = shi_score.shape
 
-        flat_kp = nms_exp_ness_score.view(b, -1).topk(k, dim=-1)[1]
+        kp_score, flat_kp = nms_exp_ness_score.view(b, -1).topk(k, dim=-1)
         kp = flat2grid(flat_kp, w) + 0.5
         kp = self.shi_tomasi.localize_kp(kp, shi_score)
 
-        return kp
-
+        if return_kp_score:
+            return kp, kp_score
+        else:
+            return kp
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
