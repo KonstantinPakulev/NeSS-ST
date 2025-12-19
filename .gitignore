@@ -1,1 +1,6 @@
 __pycache__/
+
+# Pip installation artifacts
+*.egg-info/
+dist/
+build/

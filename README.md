@@ -5,12 +5,50 @@
 ## Table of contents
 
 1. [Installation](#installation)
+   - [Pip Installation (Standalone)](#pip-installation-standalone)
+   - [Full Development Setup (Docker)](#full-development-setup-docker)
 2. [Datasets](#datasets)
 3. [Models](#models)
 4. [Scripts](#scripts)
 5. [Results](#results)
 
 ## Installation
+
+### Pip Installation (Standalone)
+
+For using NeSS-ST in your own projects, you can install it via pip:
+
+```bash
+# Install from local directory
+cd NeSS-ST
+pip install .
+
+# Or install in editable mode for development
+pip install -e .
+
+# Or install directly from GitHub
+pip install git+https://github.com/KonstantinPakulev/NeSS-ST.git
+```
+
+This installs the standalone NeSSST detector with minimal dependencies (torch, numpy, scikit-image, torchvision).
+
+**Quick usage example:**
+
+```python
+from standalone.ICCV2023.nessst import NeSSST
+import torch
+
+model = NeSSST()
+# Load checkpoint if needed
+# checkpoint = torch.load('weights/model_r_mAA=0.7706.pt', map_location='cpu')
+# model.load_state_dict(checkpoint)
+model.eval()
+
+# Detect keypoints
+keypoints, scores = model(image, image_gray, nms_size=5, k=2048, return_kp_score=True)
+```
+
+### Full Development Setup (Docker)
 
 To ease reproducibility of our results, we provide all dependencies in a Docker container. Launching of scripts and running Jupyter notebooks is done from the container.
 
