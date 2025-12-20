@@ -306,11 +306,23 @@ def get_divisor_crop_rect(shape, size_divisor):
 
 
 def load_checkpoint(checkpoint_path):
-    checkpoint = torch.load(checkpoint_path, map_location='cpu')
-
-    for old_key in list(checkpoint.keys()):
-        checkpoint[old_key[2:]] = checkpoint[old_key]
-        del checkpoint[old_key]
+    """
+    Load checkpoint from a URL (via torch.hub) or local file path.
+    
+    :param checkpoint_path: URL string (http/https) or local file path. 
+    :return: checkpoint state dict
+    """
+    # Check if checkpoint_path is a URL
+    if checkpoint_path.startswith(('http://', 'https://')):
+        # Load from URL using torch.hub
+        checkpoint = torch.hub.load_state_dict_from_url(
+            checkpoint_path, 
+            map_location='cpu',
+            progress=True
+        )
+    else:
+        # Load from local file path
+        checkpoint = torch.load(checkpoint_path, map_location='cpu')
 
     return checkpoint
 
@@ -394,13 +406,20 @@ def nms(score, nms_size, return_mask=False):
 
 class NeSSST(nn.Module):
 
-    def __init__(self, min_ness=0, max_ness=32):
+    DEFAULT_CHECKPOINT_URL = "https://github.com/KonstantinPakulev/NeSS-ST/raw/refs/heads/main/weights/model_r_mAA=0.7706.pt"
+
+    def __init__(self, min_ness=0, max_ness=32, load_pretrained=True):
         super().__init__()
+
         self.unet = UNet()
         self.shi_tomasi = ShiTomasi()
 
         self.min_ness = min_ness
         self.max_ness = max_ness
+
+        if load_pretrained:
+            ckpt = load_checkpoint(NeSSST.DEFAULT_CHECKPOINT_URL)
+            self.load_state_dict(ckpt)
 
     def __call__(self, image, image_gray, nms_size, k, return_kp_score=False):
         """
@@ -431,10 +450,11 @@ class NeSSST(nn.Module):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('checkpoint_path')
     parser.add_argument('image_path')
     parser.add_argument('num_features', type=int)
-
+    
+    parser.add_argument('--checkpoint_path', '-c', default=None,
+                        help='URL or local path to checkpoint. If not provided, uses DEFAULT_CHECKPOINT_URL')
     parser.add_argument('--output_path', '-O', default='output/nessst_kp.npy')
     parser.add_argument('--device', '-d', default='cpu')
 
@@ -447,16 +467,19 @@ if __name__ == "__main__":
     output_path = args.output_path
     device = torch.device(args.device)
 
-    checkpoint = load_checkpoint(checkpoint_path)
+    load_pretrained = checkpoint_path is None
 
-    nessst = NeSSST()
-    nessst.load_state_dict(checkpoint)
-    nessst = nessst.eval()
-    nessst = nessst.to(device)
+    ness_st = NeSSST(load_pretrained=load_pretrained)
+
+    if not load_pretrained:
+        ness_st.load_state_dict(load_checkpoint(checkpoint_path))
+    
+    ness_st = ness_st.eval()
+    ness_st = ness_st.to(device)
 
     image, image_gray = load_image(image_path)
 
-    kp = nessst(image.to(device), image_gray.to(device), 5, num_features)[..., [1, 0]]
+    kp = ness_st(image.to(device), image_gray.to(device), 5, num_features)[..., [1, 0]]
 
     dir_path, file_name = os.path.split(output_path)
 
