@@ -79,7 +79,7 @@ class UpLayer(nn.Module):
 
 class UNet(nn.Module):
 
-    def __init__(self):
+    def __init__(self, pad_to_multiple=16):
         super().__init__()
         self.down_layers = nn.ModuleList([DownLayer(3, 16, True),
                                           DownLayer(16, 32),
@@ -90,8 +90,17 @@ class UNet(nn.Module):
                                         UpLayer(64, 64, 64),
                                         UpLayer(64, 32, 64),
                                         UpLayer(64, 16, 1)])
+        self.pad_to_multiple = pad_to_multiple
 
     def __call__(self, image):
+        h, w = image.shape[2:]
+
+        if self.pad_to_multiple is not None:
+            pad_h = (self.pad_to_multiple - h % self.pad_to_multiple) % self.pad_to_multiple
+            pad_w = (self.pad_to_multiple - w % self.pad_to_multiple) % self.pad_to_multiple
+            if pad_h > 0 or pad_w > 0:
+                image = F.pad(image, (0, pad_w, 0, pad_h))
+
         features = [image]
 
         for layer in self.down_layers:
@@ -101,6 +110,9 @@ class UNet(nn.Module):
 
         for layer, s_f in zip(self.up_layers, skip_features):
             features.append(layer(features[-1], s_f))
+
+        if self.pad_to_multiple is not None:
+            features[-1] = features[-1][:, :, :h, :w]
 
         return features
 
